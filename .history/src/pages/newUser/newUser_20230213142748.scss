@@ -1,0 +1,29 @@
+.newUser{
+  flex:4;
+}
+
+.newUserForm{
+  display: flex;
+  flex-wrap:wrap;
+}
+
+.newUserItem{
+  width:400px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-right:20px;
+}
+
+.newUserItem>label{
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color:gray;
+}
+
+.newUserItem>input{
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}

@@ -1,0 +1,39 @@
+.product{
+  flex:4;
+  padding: 20px;
+}
+
+.productTitleContainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ 
+
+.productAddButton{
+  border: none;
+  border-radius: 10px;
+  width: 80px;
+  padding:5px;
+  background-color: teal;
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+}
+
+.productTop{
+  display:flex;
+}
+
+.productTopLeft,.productTopRight{
+  flex:1;
+}
+
+.productTopRight{
+  padding: 20px;
+  margin: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
